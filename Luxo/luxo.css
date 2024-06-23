@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1F97D4;
+
+}
+
+.Topo{
+    background-color: #87bbe5;
+    padding: 20px;
+    text-align: center;
+
+}
+.Topo h1{
+    font-size: 50px;
+    color: #323b46;
+    font-family:"papyrus";
+
+}
+.Topo p{
+    font-size: 24px;
+    color: #4a6f87;
+    font-family: "palatino"
+}
+
+.fale{
+    background-color: #578d9b;
+    border-top: 50px;
+    border-bottom: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height:700px;
+    text-align: center;
+}
+.fale h1{
+    font-size: 50px;
+    color:#84a3cc;
+
+}
+
+.fale p, label, a {
+    font-size:16px;
+    color: #323b46;
+    font-family: "palatino";
+}
+
+.Menu{
+    background-color: #87bbe5;
+    ;
+    overflow: hidden;
+}
+.Menu a{
+    color: #1b2027;
+    padding: 14px 16px;
+    float: left;
+    display: block;
+    text-decoration: none;} 
+
+    .Inteiro{
+        float: center;
+        padding: 10px;
+        
+        width: 100%;
+    }
+
+    .Inteiro h1{
+        text-align: center;
+        font-size: 50px;
+        color:#FFFFFF;
+    }
+
+    .Coluna{
+        float: left;
+        width:50%;
+        padding: 15px;
+    
+    }
+    .Coluna h2{
+        color: #FFFFFF;
+        font-family: "papyrus";
+        margin-bottom: 10px;
+        font-size: 36px;
+        text-align: center;
+    }
+    .Coluna p{
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 6px;
+        font-family: 'Lucida Sans';
+        color: #FFFFFF;
+    }
+    .Coluna ul{
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 6px;
+        font-family: 'Lucida Sans';
+        color: #FFFFFF
+    }
+    .Coluna li{
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 6px;
+        font-family: 'Lucida Sans';
+        color: #FFFFFF;
+    }
+    .Coluna a{
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .show h2{
+        color: #FFFFFF;
+        font-family: "papyrus";
+        margin-bottom: 10px;
+        font-size: 36px;
+        text-align: center;
+    }
+video{
+    margin:0 auto;
+    display: block; 
+    }
+
+    img {
+        margin: auto;
+        display: block;
+      }
+
+ h2{
+        font-size: 29px;
+        margin-bottom: 6px;
+        font-family: 'papyrus';
+        color: #FFFFFF;
+  }
+  .presentation p{
+    font-family: 'papyrus';
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+
+
+
+.formulario h1{
+    font-size: 50px;
+    color:#84a3cc;
+
+}
+
+.formulario, p, label, a {
+    font-size:16px;
+    color: #FFFFFF;
+    font-family: "palatino";
+}
+
+.admform{
+    width: 95%;
+}
+.admform h1{
+    color: #FFFFFF;
+    font-family: "palatino";
+    text-align: center;
+    font-size: 50px;
+}
+.admform h2{
+        color: #FFFFFF;
+        font-family: "papyrus";
+        margin-bottom: 10px;
+        font-size: 36px;
+        text-align: center;
+}
+.admform form button,.search{
+   background-color: #1F97D4;
+   border: 2px solid white;
+   font-size: 12px;
+   padding: 10px;
+   margin: 10px 10px 10px 10px;
+   text-align:center;
+   color: white;
+   
+}
+.admform form button:hover,.search:hover{
+    background-color: #28b4fb;
+    color: #323b46;
+    border: 2px solid #323b46;
+}
+
+.admform input{
+    margin-left: 10px;
+    margin-right: 10px; 
+    border: 5px solid #87bbe5;
+    padding: 10px;
+    font-size: 12px;
+    width: 45%;
+}
+.admform ul{
+    width: 90%;
+    margin:auto;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+
+}
+.admform li{
+    border: 5px solid white;
+    font-family: "palatino";
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #87bbe5;
+    text-align:justify;
+    color: #1F97D4;
+}
+
+.admform ul button{
+    background-color: #87bbe5;
+    border: none;
+    font-size: 19px;
+    color: #1F97D4;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    float: right;
+
+}
+
